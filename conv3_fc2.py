@@ -7,26 +7,17 @@ class Net(nn.Module):
     def __init__(self):
         super().__init__()
 
-        # shape of each input image is: (1, 28, 28)
-
-        # 1 input image channel (grayscale), 10 output channels/feature maps
-        # 3x3 square convolution kernel
-        # output has dimensio (28/2)=14, (32, 14, 14)
+        
         self.conv1 = nn.Conv2d(1, 32, 3, padding=1)
 
-        # TODO: Define the rest of the layers:
-        # include another conv layer, maxpooling layers, and linear layers
-        # also consider adding a dropout layer to avoid overfitting
+        
         self.conv2 = nn.Conv2d(32, 64, 3, padding=1)
 
         self.conv3 = nn.Conv2d(64, 128, 3, padding=1)
 
         self.pool = nn.MaxPool2d(2, 2)
 
-        # after each conv layer, we have a MaxPool
-        # 28/2=14
-        # 14/2=7
-        # 7/2=3.5 but  ceil_mode=True, so: 4
+        
         self.fc1 = nn.Linear(128*28*28, 512)
 
         self.fc2 = nn.Linear(512, 136)
