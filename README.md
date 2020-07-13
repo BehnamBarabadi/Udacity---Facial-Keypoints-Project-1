@@ -14,7 +14,7 @@ Facial keypoints include points around the eyes, nose, and mouth on a face and a
 
 Facial keypoints displayed on two images, each of which contains a single face.
 
-Project Instructions
+Project Instructions:
 The project will be broken up into a few main parts in four Python notebooks, only Notebooks 2 and 3 (and the models.py file) will be graded:
 
 - Notebook 1 : Loading and Visualizing the Facial Keypoint Data
