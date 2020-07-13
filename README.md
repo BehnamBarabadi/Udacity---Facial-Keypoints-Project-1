@@ -4,7 +4,7 @@ Udacity - Computer Vision - Project 1- Facial Keypoints
 
 link to this course: https://www.udacity.com/course/computer-vision-nanodegree--nd891/?utm_source=gsem_brand&utm_medium=ads_r&utm_campaign=2045338233_c&utm_term=71049808023&utm_keyword=udacity%20computer%20vision_e&gclid=Cj0KCQjw6ar4BRDnARIsAITGzlBB6JIkuubRGkEMzaxylqjzS1EpSyEBH0Q1eGVYcOUOzqFGQHiIEBYaAsEHEALw_wcB
 
-Project Overview
+## Project Overview
 
 
 In this project, you’ll combine your knowledge of computer vision techniques and deep learning architectures to build a facial keypoint detection system that takes in any image with faces, and predicts the location of 68 distinguishing keypoints on each face!
@@ -17,10 +17,10 @@ Facial keypoints displayed on two images, each of which contains a single face.
 Project Instructions
 The project will be broken up into a few main parts in four Python notebooks, only Notebooks 2 and 3 (and the models.py file) will be graded:
 
-Notebook 1 : Loading and Visualizing the Facial Keypoint Data
+- Notebook 1 : Loading and Visualizing the Facial Keypoint Data
 
-Notebook 2 : Defining and Training a Convolutional Neural Network (CNN) to Predict Facial Keypoints
+- Notebook 2 : Defining and Training a Convolutional Neural Network (CNN) to Predict Facial Keypoints
 
-Notebook 3 : Facial Keypoint Detection Using Haar Cascades and your Trained CNN
+- Notebook 3 : Facial Keypoint Detection Using Haar Cascades and your Trained CNN
 
-Notebook 4 : Fun Filters and Keypoint Uses
+- Notebook 4 : Fun Filters and Keypoint Uses
